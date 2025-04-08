@@ -16,7 +16,7 @@
   - Custom order deletion flow with reason tracking
   - Enhanced list displays with search/filter capabilities
 
-## 🛠 Technology Stack
+##  Technology Stack
 | Component       | Technology |
 |-----------------|------------|
 | Backend         | Django 5.1 |
