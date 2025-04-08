@@ -5,7 +5,7 @@
 
 <img src="https://img.shields.io/badge/Django-5.1-green" alt="Django"> <img src="https://img.shields.io/badge/Python-3.10+-blue" alt="Python"> <img src="https://img.shields.io/badge/PostgreSQL-14+-blue" alt="PostgreSQL">
 
-## 🌟 Key Features
+##  Key Features
 - **Real-time Menu Management**
   - Add/edit/delete categories and products
   - Unique product names within categories enforcement
