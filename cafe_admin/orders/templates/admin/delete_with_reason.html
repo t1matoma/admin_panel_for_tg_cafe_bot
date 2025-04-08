@@ -1,0 +1,11 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+  <h1>Удаление заказа с причиной</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Удалить</button>
+  </form>
+  <a href="{% url 'admin:orders_order_changelist' %}">Назад</a>
+{% endblock %}
