@@ -48,21 +48,21 @@ SECRET_KEY=example
 
 ```bash
 # 2. Create virtual environment
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .\.venv\Scripts\activate   # Windows
 
 # 3. Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # 5. Run migrations
-python manage.py migrate
+python3 manage.py migrate
 
 # 6. Create admin user
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 
 # 7. Run development server
-python manage.py runserver
+python3 manage.py runserver
 ```
 ##  Environment Configuration
 
