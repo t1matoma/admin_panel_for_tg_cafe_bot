@@ -35,7 +35,7 @@
 git clone https://github.com/t1matoma/admin_panel_for_tg_cafe_bot.git
 cd admin_panel_for_tg_cafe_bot
 ```
-### 2. Configure environment  
+#### Configure environment  
 Create `.env` file (see `.env.example`):  
 ```ini
 DB_HOST=localhost
