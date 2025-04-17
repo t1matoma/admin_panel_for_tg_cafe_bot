@@ -59,6 +59,7 @@ pip3 install -r requirements.txt
 
 # 5. Run migrations
 cd cafe_admin
+python3 manage.py makemigrations orders
 python3 manage.py migrate
 
 # 6. Create admin user
