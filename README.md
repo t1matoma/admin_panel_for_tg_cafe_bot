@@ -34,7 +34,19 @@
 # 1. Clone repository
 git clone https://github.com/t1matoma/admin_panel_for_tg_cafe_bot.git
 cd admin_panel_for_tg_cafe_bot
+```
+### 2. Configure environment  
+Create `.env` file (see `.env.example`):  
+```ini
+DB_HOST=localhost
+DB_USER=username
+DB_PASSWORD=yourdbpassword
+DB_NAME=tg_cafe_bot
 
+SECRET_KEY=example
+```
+
+```bash
 # 2. Create virtual environment
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
