@@ -32,8 +32,8 @@
 ### Installation
 ```bash
 # 1. Clone repository
-git clone https://github.com/t1matoma/admin_panel_for_tg_cafe-bot.git
-cd admin_panel_for_tg_cafe-bot
+git clone https://github.com/t1matoma/admin_panel_for_tg_cafe_bot.git
+cd admin_panel_for_tg_cafe_bot
 
 # 2. Create virtual environment
 python -m venv .venv
