@@ -58,6 +58,7 @@ sudo apt install python3-dev libpq-dev postgresql-server-dev-all # Linux
 pip3 install -r requirements.txt
 
 # 5. Run migrations
+cd cafe_admin
 python3 manage.py migrate
 
 # 6. Create admin user
