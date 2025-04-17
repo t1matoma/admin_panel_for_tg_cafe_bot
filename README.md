@@ -53,6 +53,8 @@ source .venv/bin/activate  # Linux/Mac
 .\.venv\Scripts\activate   # Windows
 
 # 3. Install dependencies
+sudo apt update
+sudo apt install python3-dev libpq-dev postgresql-server-dev-all
 pip3 install -r requirements.txt
 
 # 5. Run migrations
